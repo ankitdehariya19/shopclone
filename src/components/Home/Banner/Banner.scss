@@ -1,0 +1,177 @@
+@import "../../../css-config/mixins.scss";
+.Banner {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 20px;
+    margin-left: 300px;
+    
+   
+    
+    
+
+
+    
+  }  
+  
+  
+  .content01 {
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+   
+       
+
+    
+  }
+  
+  .courseBox {
+    margin-left: 20px;
+  }
+  
+  .courseBox h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 51px 0 23px;
+    line-height: 30px;
+    min-height: 30px;
+    position: relative;
+    border: 0;
+    cursor: pointer;
+    padding: 0 40px !important;
+    background: transparent;
+
+  }
+  
+  .lectureList {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    .fileIcon{
+      color: #ffb606;
+      margin-right: 15px;
+    }
+
+   
+  }
+  
+  .lectureName {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color:#595957 ;
+  }
+  
+  .lectureName span {
+    font-size: 13px;
+    font-weight: 400;
+    color:#595957 ;
+
+
+    .lock{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+    }
+  }
+  .lockIcon{
+    margin-left: 350px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5b5b5b;
+    line-height: 22px;
+    
+  }
+  
+  .lectureName h5 {
+    margin: 0;
+    padding: 5px;
+    margin-left: 40px;
+    font-size: 14px;
+    color:#999 ;
+  }
+
+
+
+
+  .content02 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    margin-top: 35px;
+    gap: 18px;
+    
+  }
+  
+ .heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .content02 .paragraph {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #676464;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .content02 .channelAnalyticsPic {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .content03 {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start; 
+    padding: 20px;
+
+    .Infobox{
+      display: flex;
+      margin-top: 25px;
+    }
+  }
+  
+  .content03 .profileImgBox {
+    margin-right: 20px;
+  }
+  
+  .content03 .profileImgBox .profileimg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .content03 .AboutBox {
+    flex: 1;
+
+    .sigma{
+     margin-bottom: 15px;
+    }
+  }
+  
+  .content03 .AboutBox p {
+    margin-bottom: 10px;
+    color: #6f6d6d;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  
+  .footer {
+    
+    background: none;
+  }
+  

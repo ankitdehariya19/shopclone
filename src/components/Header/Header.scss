@@ -1,0 +1,186 @@
+@import "../../css-config/mixins.scss";
+
+
+
+
+.min-header{
+    
+    width: 100%;
+    
+    
+    display: grid;
+   
+   
+
+
+    .header01{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: var(--thim-toolbar-line-height,30px);
+        font-weight: var(--thim-toolbar-font-weight,700);
+        background-color: #2a4856;
+        color: var(--thim-text-color-toolbar);
+        font-size: 13px;
+        color: white;
+        font-weight: 200;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20%;
+
+        .contectUsInfo{
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            .mailLogo{
+                margin-top: 2px;
+                padding-left: 5px;
+                padding-right: 5px;
+               
+            }
+        }
+        .buttonBox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .button{
+                background-color: transparent;
+                border: none;
+                outline: none;
+                color: lightslategray;
+            }
+            .button:hover{
+                color: rgb(235, 217, 14);
+            }
+        }
+    }
+
+    .header02{
+           background-color: white;
+           width: 100%;
+           height: 50px;
+           flex: 1;
+           border: 1px solid black;
+           padding: 10px;
+
+           .logo{
+            width: 150px;
+            margin-left: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+    }
+
+    .header03{
+      
+        width: 100%;
+        height: 50px;
+        display: grid;
+        height: 200px;
+        background-color: #2a4856;
+
+        .headingName{
+            width: 100%;
+           
+            display: flex;
+            align-items: center;
+           h3{
+            margin-left: 20%;
+            margin-top: 55px;
+            font-size: 25px;
+            font-weight: 800;
+            color: white;
+           }
+        }
+        .ProfileInfoName{
+            width: 100%;
+           
+
+
+            .Infodiv{
+                display: flex;
+                width: 100%;
+                height: 100px;
+               
+
+                .imagebox{
+                   
+                    height: 100px;
+                    width: 25%;
+                }
+                .textBox{
+                   
+                    height: 100px;
+                    width: calc(75%);
+                    display: flex;
+                    align-items: center;
+                    display: grid;
+                       
+
+                    .TeacherBox{
+                        height: 50px;
+                        width: 100%;
+                       
+                        .teacherText{
+                            color: rgb(209, 207, 225);
+                            margin-top: 20px;
+                            font-size: 15px;
+                            font-weight: 300;
+                        }
+                       
+                    }
+                     
+                    .SigmaBox{
+                        height: 50px;
+                        width: 100%;
+                        
+                        .SigmaText{
+                            color: rgb(224, 223, 233);
+                        }
+                    }
+                    
+                }
+            }
+            
+
+            
+          
+           
+            // h4{
+            //     margin-left: 28%;
+            //     font-weight: 300;
+            //     font-size: 14px;
+            //     margin-top: 50px;
+            //     color: rgb(162, 25, 25);
+              
+            // }
+            // h3{
+            //     margin-left: 28%;
+            //     font-weight: 500;
+            //     font-size: 16px;
+            //     color: rgb(223, 19, 19);
+              
+            // }
+
+            .profileImg{
+                width: 50px;
+                height: 50px;
+               border-radius: 50%;
+               float: right;
+               margin-right: 10px;
+               margin-bottom: 0;
+              margin-top: 20px;
+               
+
+            }
+        }
+        
+
+    }
+    
+}
+
+
+
